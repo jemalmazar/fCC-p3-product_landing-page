@@ -9,6 +9,10 @@ html {
     box-sizing: border-box;
   }
 
+:root {
+    --brandblue: #8AA7EC;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -72,12 +76,78 @@ table {
 # Styles
 --------------------------------------------------------------*/
 
+/* Header */
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        border-top: 5px solid var(--brandblue);
+    }
+
+    .header-img {
+        height: auto;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .nav-bar {
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 0.2em 0;
+    }
+
+    .nav-link a {
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+        text-decoration: none;
+    }
+
 /* Main */
 
-body {
-    background: black;
-}
 
-p {
-    color: red;
+
+/*--------------------------------------------------------------
+# Media Breakpoints
+--------------------------------------------------------------*/
+
+
+/* Tablet */
+    @media (min-width: 760px) {
+
+        .header {
+            flex-direction: row;
+            justify-content: space-between;
+            border-top: 10px solid var(--brandblue);
+        }
+
+        .header-img {
+            width: 50%;
+        }
+
+        .nav-bar ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .nav-link {
+            padding: 0 1em;
+        }
+
+    }
+
+/* Dekstop */
+
+@media (min-width: 1200px) {
+
+    .header-img {
+        width: 25%;
+    }
+
+    .nav-link {
+        font-size: 1.75em;
+    }
 }
