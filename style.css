@@ -82,6 +82,7 @@ table {
         display: flex;
         flex-direction: column;
         border-top: 5px solid var(--brandblue);
+        padding: 0 0 1em;
     }
 
     .header-img {
@@ -106,7 +107,41 @@ table {
 
 /* Main */
 
+    .hero {
+        display: grid;
+        grid-template-areas: "hero";
+        background: linear-gradient(61.63deg, #D16BA5 0%, #C777B9 9.9%, #BA83CA 17.71%, 
+                                #AA8FD8 26.56%, #9A9AE1 34.9%, #8AA7EC 45.83%, 
+                                #79B3F4 53.65%, #69BFF8 64.58%, #52CFFE 73.44%, 
+                                #41DFFF 80.73%, #46EEFA 89.06%, #5FFBF1 100%);
+        height: 50vh;
+        max-height: 600px;
+        place-items: center;
+    }
 
+    .hero > * {
+        grid-area: hero;
+    }
+
+    .hero-content {
+        color: #FFF;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+        padding: 0.3em 0;
+    }
+
+    .hero-subtitle {
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9em;
+        text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+    }
 
 /*--------------------------------------------------------------
 # Media Breakpoints
@@ -139,7 +174,7 @@ table {
 
     }
 
-/* Dekstop */
+/* Desktop */
 
 @media (min-width: 1200px) {
 
