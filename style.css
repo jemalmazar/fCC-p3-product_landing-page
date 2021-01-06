@@ -11,11 +11,8 @@ html {
 
 :root {
     --brandblue: #8AA7EC;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
+    --featuresblue: #69BFF8;
+    --productspurple: #AA8FD8;
 }
 
 /*--------------------------------------------------------------
@@ -206,6 +203,96 @@ table {
         background-color: #79B3F4;
     }
 
+/* Features */
+
+    .features {
+        margin: 3em 0 0;
+    }
+
+    .features-header {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .header-underline {
+        border: 2px solid var(--featuresblue);
+        width: 150px;
+    }
+
+    .features-text {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        padding: 1em 0;
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    .video-separator {
+        width: 80%;
+        margin: 1.5em auto;
+    }
+
+    .features-video iframe {
+        height: 315px;
+        width: 100%;
+    }
+
+    .features-list {
+        display: grid;
+        grid-template-columns: 310px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2.5em;
+        justify-content: center;
+        padding: 2em 0;
+    }
+    
+    .feature-card {
+        text-align: center;
+        padding: 2.5em 0;
+        border: 1px solid var(--featuresblue);
+        border-radius: 10px;
+        box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .feature-card img {
+        background-color: var(--featuresblue);
+        height: 100px;
+        width: 100px;
+        padding: 1.1em;
+        border-radius: 50%;
+        margin: 0 0 0.75em;
+    }
+
+    .card-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 1.1em;
+        padding: 0.75em 0;
+    }
+
+    .card-text {
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9em;
+        padding: 0 4em 3em;
+    }
+
+    .read-more-button {
+        background-color: var(--featuresblue);
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9em;
+        text-decoration: none;
+        padding: 1em 2em;
+        border-radius: 10px;
+        margin: 3em 0 0;
+    }
+
+    .read-more-button:hover {
+        background-color: #52CFFE;
+    }
+
 /*--------------------------------------------------------------
 # Media Breakpoints
 --------------------------------------------------------------*/
@@ -238,7 +325,7 @@ table {
 
         /* Hero */
         .hero {
-            height: 75vh;
+            height: 80vh;
             max-height: 1000px;
         }
 
@@ -254,52 +341,190 @@ table {
         .cta-container {
             width: 70vw;
             font-size: 1em;
+            margin-top: -70px;
         }
 
         input[type='email'] {
             font-size: 1em;
         }
 
+        /* Features */
+        .features-header {
+            font-size: 3em;
+        }
+
+        .header-underline {
+            width: 225px;
+        }
+        
+        .features-text {
+            width: 375px;
+        }
+
+        .video-separator {
+            width: 50%;
+            margin: 2em auto;
+        }
+
+        .features-video iframe {
+            height: 480px;
+        }
+
+        .features-list {
+            grid-template-columns: repeat(3, 200px);
+            grid-template-rows: 375px;
+        }
+
+        .card-text {
+            padding: 0 1em 3em;
+        }
+    }
+
+
+/* Large Tablet */
+
+    @media (min-width: 1000px) {
+
+        /* Header */
+        .nav-link {
+            font-size: 1.25em;
+        }
+
+        /* Hero */
+        .hero {
+            height: 82vh;
+            max-height: 1200px;
+        }
+
+        .hero-title {
+            font-size: 5em;
+        }
+
+        .hero-subtitle {
+            font-size: 2em;
+        }
+
+        /* Call-to-Action */
+        .cta-container {
+            width: 70vw;
+            font-size: 1.5em;
+            margin-top: -100px;
+        }
+
+        input[type='email'] {
+            font-size: 0.9em;
+        }
+
+        /* Features */
+        .features-text {
+            width: 375px;
+        }
+
+        .features-video iframe {
+            height: 600px;
+        }
+
+        .features-list {
+            grid-template-columns: repeat(3, 275px);
+            grid-template-rows: 345px;
+        }
+
+        .card-text {
+            padding: 0 1em 3em;
+        }
+
     }
 
 /* Desktop */
 
-@media (min-width: 1200px) {
+    @media (min-width: 1200px) {
 
-    /* Header */
-    .header-img {
-        width: 25%;
+        /* Header */
+        .header-img {
+            width: 25%;
+        }
+
+        .nav-link {
+            font-size: 1.75em;
+        }
+
+        /* Hero */
+        .hero {
+            height: 65vh;
+            max-height: 1200px;
+        }
+
+        .hero-title {
+            font-size: 4.5em;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5em;
+        }
+
+        /* Call-to-Action */
+        .cta-container {
+            width: 40vw;
+        }
+
+        .cta-form {
+            padding: 0.5em 0 1.5em;
+        }
+
+        .cta-text {
+            font-size: 1em;
+        }
+
+        input[type='email'],
+        input[type='submit'] {
+            font-size: 1em;
+        }
+
+        /* Features */
+        .features-text {
+            font-size: 1.5em;
+            width: 550px;
+        }
+
+        .features-video {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .features-video hr {
+            color: #C4C4C4;
+            height: 1%;
+            width: 25%;
+        }
+
+        .features-video iframe {
+            height: 720px;
+            width: 1280px;
+        }
+
+        .features-list {
+            grid-template-columns: repeat(3, 500px);
+            grid-template-rows: 575px;
+            justify-content: center;
+            grid-gap: 5em;
+        }
+
+        .feature-card img {
+            height: 150px;
+            width: 150px;
+        }
+
+        .card-title {
+            font-size: 3rem;
+        }
+
+        .card-text {
+            font-size: 1.5em;
+        }
+
+        .read-more-button {
+            font-size: 1.5em;
+        }
+
     }
-
-    .nav-link {
-        font-size: 1.75em;
-    }
-
-    /* Hero */
-    .hero-title {
-        font-size: 5em;
-    }
-
-    .hero-subtitle {
-        font-size: 2em;
-    }
-
-     /* Call-to-Action */
-     .cta-container {
-        width: 30vw;
-    }
-
-    .cta-form {
-        padding: 0.5em 0 1.5em;
-    }
-
-    .cta-text {
-        font-size: 1.5em;
-    }
-
-    input[type='email'],
-    input[type='submit'] {
-        font-size: 1.2em;
-    }
-
-}
