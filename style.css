@@ -250,7 +250,7 @@ table {
     
     .feature-card {
         text-align: center;
-        padding: 2.5em 0;
+        padding: 1.5em 0;
         border: 1px solid var(--featuresblue);
         border-radius: 10px;
         box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
@@ -262,31 +262,33 @@ table {
         width: 100px;
         padding: 1.1em;
         border-radius: 50%;
-        margin: 0 0 0.75em;
     }
 
     .card-title {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
         font-size: 1.1em;
-        padding: 0.75em 0;
+        padding: 2em 0 0.75em;
     }
 
     .card-text {
         font-family: 'Lato', sans-serif;
         font-size: 0.9em;
-        padding: 0 4em 3em;
+        width: 200px;
+        margin: 0 auto;
     }
 
     .read-more-button {
+        display: block;
         background-color: var(--featuresblue);
         color: #FFF;
         font-family: 'Lato', sans-serif;
         font-size: 0.9em;
         text-decoration: none;
-        padding: 1em 2em;
+        width: 150px;
+        padding: 1.25em 2em;
         border-radius: 10px;
-        margin: 3em 0 0;
+        margin: 2em auto 0;
     }
 
     .read-more-button:hover {
@@ -372,11 +374,15 @@ table {
 
         .features-list {
             grid-template-columns: repeat(3, 200px);
-            grid-template-rows: 375px;
+            grid-template-rows: auto;
         }
 
         .card-text {
-            padding: 0 1em 3em;
+            width: 75%;
+        }
+
+        .read-more-button {
+            margin: 2em auto 0;
         }
     }
 
@@ -426,11 +432,11 @@ table {
 
         .features-list {
             grid-template-columns: repeat(3, 275px);
-            grid-template-rows: 345px;
+            grid-template-rows: auto;
         }
 
         .card-text {
-            padding: 0 1em 3em;
+            width: 85%;
         }
 
     }
@@ -505,9 +511,13 @@ table {
 
         .features-list {
             grid-template-columns: repeat(3, 500px);
-            grid-template-rows: 575px;
+            grid-template-rows: auto;
             justify-content: center;
             grid-gap: 5em;
+        }
+
+        .feature-card {
+            padding: 2.5em 0;
         }
 
         .feature-card img {
@@ -521,10 +531,12 @@ table {
 
         .card-text {
             font-size: 1.5em;
+            width: 300px;
         }
 
         .read-more-button {
             font-size: 1.5em;
+            width: 250px;
         }
 
     }
