@@ -370,6 +370,40 @@ table {
         margin: 2em auto 0;
     }
 
+
+/* Footer */
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .footer-separator {
+        align-self: start;
+        border: 2px solid var(--brandblue);
+        width: 300px;
+    }
+
+    .signature {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        padding: 0.5em 0 1em;
+    }
+
+    .signature a {
+        color: var(--brandblue);
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .signature a:hover {
+        color: var(--featuresblue);
+        text-decoration: underline;
+    }
+
+
 /*--------------------------------------------------------------
 # Media Breakpoints
 --------------------------------------------------------------*/
@@ -640,10 +674,6 @@ table {
 
         .service-details {
             font-size: 1.25em;
-        }
-
-        .purchase-button {
-
         }
 
     }
