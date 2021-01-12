@@ -350,7 +350,7 @@ table {
     }
 
     .service-details li{
-        background: url('/images/bullet_check.svg') no-repeat left top;
+        background: url('https://gist.githubusercontent.com/jemalmazar/5dcbd287e0e5ba6fa12c677e5b694e3c/raw/3e117a8432e427a60c73d6aace9cf706a72cd480/bullet_check.svg') no-repeat left top;
         height: 25px;
         padding-left: 35px;
         padding-top: 3px;
