@@ -1,12 +1,12 @@
-# freeCodeCamp Responsive Web Design Project 3 - Product Landing Page
+# freeCodeCamp: Responsive Web Design Project 3 - Product Landing Page
 
-View deployed web page at: https://jemalmazar.github.io/fCC-p3-product_landing-page/
+View deployed web page at: https://jemalmazar.github.io/fCC-p3-product_landing_page/
 
-**Project Description**
+### Project Description
 
 A product landing page for the Placeholder company which provides placholder services.
 
-**Tools & Methods Used**
+### Tools & Methods Used
 
 - HTML5
 - CSS3
@@ -18,13 +18,13 @@ A product landing page for the Placeholder company which provides placholder ser
 - [Tabler](https://tablericons.com/)
 - [SVGOMG](https://jakearchibald.github.io/svgomg/)
 
-**Little Things I Learned**
+### Little Things I Learned
 
 - how to replace default bullet points using `background` and `padding` properties
 - `list-style-image` property and how it can be used to replace default bullet points
 - simple SVG workflow
 
-**Project Epilogue**
+### Project Epilogue
 
 I couldn't decide on a specific product to build this project around so I decided to build in around placeholder since I would be using *Lorem Ipsum* text throughout the page.
 
