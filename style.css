@@ -76,6 +76,9 @@ table {
 /* Header */
 
     .header {
+        position: sticky;
+        top: 0;
+        background-color: #FFF;
         display: flex;
         flex-direction: column;
         border-top: 5px solid var(--brandblue);
