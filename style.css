@@ -83,17 +83,13 @@ table {
         flex-direction: column;
         align-items: center;
         border-top: 5px solid var(--brandblue);
-        padding: 0 0 1em;
+        padding: 0 0 1rem;
     }
 
     .header-img {
         height: auto;
         width: 100%;
-        padding: 1em;
-    }
-
-    .nav-bar {
-        text-align: center;
+        padding: 1rem;
     }
 
     .nav-link {
@@ -108,7 +104,7 @@ table {
     main {
         display: grid;
         grid-template-rows: repeat(3, auto);
-        grid-gap: 3em;
+        grid-gap: 3rem;
     }
 
 /* Hero */
@@ -140,7 +136,7 @@ table {
         font-size: 2em;
         text-transform: uppercase;
         text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
-        padding: 0.3em 0;
+        padding: 0.5rem 0;
     }
 
     .hero-subtitle {
@@ -160,15 +156,15 @@ table {
         font-size: 0.8em;
         width: 75vw;
         box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
-        padding: 0 1em;
+        padding: 0 0.75rem;
         border-radius: 10px;
         margin: -100px auto 0;
     }
 
     .cta-text {
         text-align: center;
-        line-height: 1.25em;
-        padding: 1em 0 0.5em;
+        line-height: 1rem;
+        padding: 1rem 0 0.5rem;
     }
 
     .cta-text span {
@@ -178,7 +174,7 @@ table {
     .cta-form {
         display: flex;
         justify-content: center;
-        padding: 0.5em 0 1em;
+        padding: 0.5rem 0 1rem;
     }
 
     input[type='email'] {
@@ -202,10 +198,10 @@ table {
         color: #FFF;
         font-family: 'Lato', sans-serif;
         font-weight: bold;
-        font-size: 1.25em;
+        font-size: 1rem;
         text-transform: uppercase;
         border: none;
-        padding: 0.5em;
+        padding: 0.5rem;
     }
 
     input[type='submit']:hover {
@@ -231,14 +227,14 @@ table {
     .services-text {
         font-family: 'Lato', sans-serif;
         text-align: center;
-        padding: 1em 0.5em;
+        padding: 1rem 0.5rem;
         width: 375px;
         margin: 0 auto;
     }
 
     .video-separator {
         width: 80%;
-        margin: 1.5em auto;
+        margin: 1.5rem auto;
     }
 
     .features-video iframe {
@@ -251,14 +247,14 @@ table {
         display: grid;
         grid-template-columns: 310px;
         grid-template-rows: repeat(3, 1fr);
-        grid-gap: 2.5em;
+        grid-gap: 2.5rem;
         justify-content: center;
-        padding: 1em 0 0;
+        padding: 1rem 0 0;
     }
     
     .feature-card {
         text-align: center;
-        padding: 1.5em 0;
+        padding: 1.5rem 0;
         border: 1px solid var(--featuresblue);
         border-radius: 10px;
         box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
@@ -268,20 +264,20 @@ table {
         background-color: var(--featuresblue);
         height: 100px;
         width: 100px;
-        padding: 1.1em;
+        padding: 1.1rem;
         border-radius: 50%;
     }
 
     .card-title {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
-        font-size: 1.1em;
+        font-size: 1.1rem;
         padding: 2em 0 0.75em;
     }
 
     .card-text {
         font-family: 'Lato', sans-serif;
-        font-size: 0.9em;
+        font-size: 0.9rem;
         width: 200px;
         margin: 0 auto;
     }
@@ -294,9 +290,9 @@ table {
         font-size: 0.9em;
         text-decoration: none;
         width: 150px;
-        padding: 1.25em 2em;
+        padding: 1rem 2rem;
         border-radius: 10px;
-        margin: 2em auto 0;
+        margin: 1.5rem auto 0;
     }
 
     .read-more-button:hover {
@@ -313,7 +309,7 @@ table {
     .service-card {
         font-family: 'Lato', sans-serif;
         text-align: center;
-        padding: 1.5em 0;
+        padding: 1.5rem 0;
         border: 1px solid var(--servicesspurple);
         border-radius: 10px;
         box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
@@ -322,25 +318,25 @@ table {
     .service-title {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1.5rem;
         color: var(--servicesspurple);
         width: 200px;
         margin: 0 auto;
     }
 
     .service-price {
-        margin: 2.5em 0;
+        margin: 2.5rem 0;
     }
 
     .service-price p{
         display: inline;
         font-weight: bold;
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     .service-price span {
         font-weight: bold;
-        font-size: 1.25em;
+        font-size: 1.25rem;
     }
 
     .service-details {
@@ -363,12 +359,12 @@ table {
         background-color: var(--servicesspurple);
         color: #fff;
         font-family: 'Lato' ,sans-serif;
-        font-size: .9em;
+        font-size: .9rem;
         text-decoration: none;
         width: 150px;
         padding: 1.25em 2em;
         border-radius: 10px;
-        margin: 2em auto 0;
+        margin: 1.5rem auto 0;
     }
 
 
@@ -390,7 +386,7 @@ table {
     .signature {
         font-family: 'Lato', sans-serif;
         text-align: center;
-        padding: 0.5em 0 1em;
+        padding: 0.5rem 0 1rem;
     }
 
     .signature a {
@@ -431,13 +427,14 @@ table {
         }
 
         .nav-link {
-            padding: 0 1em;
+            padding: 0 1.25rem;
         }
 
 
         /* Main */
+
         main {
-            grid-gap: 3.5em;
+            grid-gap: 3.5rem;
         }
 
         /* Hero */
@@ -447,28 +444,32 @@ table {
         }
 
         .hero-title {
-            font-size: 3em;
+            font-size: 3rem;
         }
 
         .hero-subtitle {
-            font-size: 1.2em;
+            font-size: 1.2rem;
         }
 
         /* Call-to-Action */
         .cta-container {
             width: 70vw;
-            font-size: 1em;
+            font-size: 1rem;
             margin-top: -125px;
         }
 
+        .cta-text {
+            line-height: 1.25rem;
+        }
+
         input[type='email'] {
-            font-size: 1em;
+            font-size: 1rem;
         }
 
         /* Features */
         .features-header,
         .services-header {
-            font-size: 3em;
+            font-size: 3rem;
         }
 
         .features-content .header-underline,
@@ -478,7 +479,7 @@ table {
 
         .video-separator {
             width: 50%;
-            margin: 2em auto;
+            margin: 2rem auto;
         }
 
         .features-video iframe {
@@ -489,9 +490,6 @@ table {
             width: 75%;
         }
 
-        .read-more-button {
-            margin: 2em auto 0;
-        }
     }
 
 
@@ -501,7 +499,7 @@ table {
 
         /* Header */
         .nav-link {
-            font-size: 1.25em;
+            font-size: 1.25rem;
         }
 
         /* Hero */
@@ -511,27 +509,27 @@ table {
         }
 
         .hero-title {
-            font-size: 5em;
+            font-size: 5rem;
         }
 
         .hero-subtitle {
-            font-size: 2em;
+            font-size: 2rem;
         }
 
         /* Main */
         main {
-            grid-gap: 5em;
+            grid-gap: 5rem;
         }
 
         /* Call-to-Action */
         .cta-container {
             width: 70vw;
-            font-size: 1.5em;
+            font-size: 1.5rem;
             margin-top: -175px;
         }
 
-        input[type='email'] {
-            font-size: 0.9em;
+        .cta-text {
+            line-height: 2rem;
         }
 
         /* Features */
@@ -567,7 +565,7 @@ table {
         }
 
         .nav-link {
-            font-size: 1.75em;
+            font-size: 1.75rem;
         }
 
         /* Hero */
@@ -577,11 +575,11 @@ table {
         }
 
         .hero-title {
-            font-size: 4.5em;
+            font-size: 4.5rem;
         }
 
         .hero-subtitle {
-            font-size: 1.5em;
+            font-size: 1.5rem;
         }
 
         /* Call-to-Action */
@@ -590,22 +588,22 @@ table {
         }
 
         .cta-form {
-            padding: 0.5em 0 1.5em;
+            padding: 0.5rem 0 1.5rem;
         }
 
         .cta-text {
-            font-size: 1em;
+            font-size: 1.3rem;
         }
 
         input[type='email'],
         input[type='submit'] {
-            font-size: 1em;
+            font-size: 1.25rem;
         }
 
         /* Features */
         .features-text,
         .services-text {
-            font-size: 1.5em;
+            font-size: 1.5rem;
             width: 500px;
         }
 
@@ -631,12 +629,12 @@ table {
             grid-template-columns: repeat(3, 500px);
             grid-template-rows: auto;
             justify-content: center;
-            grid-gap: 5em;
+            grid-gap: 5rem;
         }
 
         .feature-card,
         .service-card {
-            padding: 2.5em 0;
+            padding: 2.5rem 0;
         }
 
         .feature-card img {
@@ -650,13 +648,13 @@ table {
         }
 
         .card-text {
-            font-size: 1.5em;
+            font-size: 1.5rem;
             width: 300px;
         }
 
         .read-more-button,
         .purchase-button {
-            font-size: 1.5em;
+            font-size: 1.5rem;
             width: 250px;
         }
 
@@ -666,15 +664,15 @@ table {
         }
 
         .service-price p {
-            font-size: 5em;
+            font-size: 5rem;
         }
 
         .service-price span {
-            font-size: 2em;
+            font-size: 2rem;
         }
 
         .service-details {
-            font-size: 1.25em;
+            font-size: 1.25rem;
         }
 
     }
