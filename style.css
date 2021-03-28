@@ -406,7 +406,7 @@ table {
 --------------------------------------------------------------*/
 
 /* Tablet */
-    @media (min-width: 760px) {
+    @media (min-width: 43em) {
 
         /* Header */
         .header {
@@ -495,7 +495,7 @@ table {
 
 /* Large Tablet */
 
-    @media (min-width: 1000px) {
+    @media (min-width: 64em) {
 
         /* Header */
         .nav-link {
@@ -557,7 +557,7 @@ table {
 
 /* Desktop */
 
-    @media (min-width: 1200px) {
+    @media (min-width: 75em) {
 
         /* Header */
         .header-img {
